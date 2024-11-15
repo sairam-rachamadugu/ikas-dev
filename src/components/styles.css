@@ -1,0 +1,27 @@
+
+
+  
+  
+
+
+
+
+
+
+.swiper-button-prev {
+  color: #70467E; 
+}
+
+.swiper-button-next {
+  color: #70467E; 
+}
+
+
+.swiper-pagination-bullet-active {
+  background-color: #70467E; 
+  opacity: 0.8; 
+}
+
+.swiper-container {
+  padding: 50px; 
+}
