@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/IKASAcademy/static/css/main.1473edfc.css",
-    "main.js": "/IKASAcademy/static/js/main.6f04a081.js",
+    "main.css": "/IKASAcademy/static/css/main.e4f99fb9.css",
+    "main.js": "/IKASAcademy/static/js/main.3f915fed.js",
     "static/media/hero.jpg": "/IKASAcademy/static/media/hero.84d70a494764d115c673.jpg",
     "static/media/grppic.png": "/IKASAcademy/static/media/grppic.eeb6fc08c4659049e2df.png",
+    "static/media/brandedlogo.png": "/IKASAcademy/static/media/brandedlogo.84d7e26d0e02f014e42b.png",
     "static/media/getInTouchBanner.jpg": "/IKASAcademy/static/media/getInTouchBanner.3a47a1d5b60f70395be5.jpg",
     "static/media/aakash.jpg": "/IKASAcademy/static/media/aakash.d36d1298dc4c93f69fd7.jpg",
     "static/media/j1.jpg": "/IKASAcademy/static/media/j1.d36d1298dc4c93f69fd7.jpg",
     "static/media/bhaskar.jpg": "/IKASAcademy/static/media/bhaskar.f0f72c3c7e0cffdc22d1.jpg",
     "static/media/j2.jpg": "/IKASAcademy/static/media/j2.f0f72c3c7e0cffdc22d1.jpg",
-    "static/media/brandedlogo.png": "/IKASAcademy/static/media/brandedlogo.625745e786c3e06e735f.png",
     "index.html": "/IKASAcademy/index.html",
-    "main.1473edfc.css.map": "/IKASAcademy/static/css/main.1473edfc.css.map",
-    "main.6f04a081.js.map": "/IKASAcademy/static/js/main.6f04a081.js.map"
+    "main.e4f99fb9.css.map": "/IKASAcademy/static/css/main.e4f99fb9.css.map",
+    "main.3f915fed.js.map": "/IKASAcademy/static/js/main.3f915fed.js.map"
   },
   "entrypoints": [
-    "static/css/main.1473edfc.css",
-    "static/js/main.6f04a081.js"
+    "static/css/main.e4f99fb9.css",
+    "static/js/main.3f915fed.js"
   ]
 }
