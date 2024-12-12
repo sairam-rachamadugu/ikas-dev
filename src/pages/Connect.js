@@ -15,6 +15,8 @@ function classNames(...classes) {
 const Connect = () => {
     const [agreed, setAgreed] = useState(false);
 
+    const isHome = window.location.pathname
+
     return (
         // <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8"> --original
         <div className="isolate mt-44 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
@@ -70,7 +72,7 @@ const Connect = () => {
                             />
                         </div>
                     </div>
-                    <div className="sm:col-span-2">
+                    {/* <div className="sm:col-span-2">
                         <label htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-600">
                             Company
                         </label>
@@ -83,7 +85,7 @@ const Connect = () => {
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             />
                         </div>
-                    </div>
+                    </div> */}
                     <div className="sm:col-span-2">
                         <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-600">
                             Email
@@ -179,7 +181,7 @@ const Connect = () => {
                 </div>
             </form>
 
-            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            {/* <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a href="mailto:info@IKASAcademy.co.in" className="text-primary font-semibold hover:text-gray-500 duration-300 transition-colors">info@IKASAcademy.co.in</a>
                 <p className="leading-normal my-5 text-gray-700 ">
                     <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A" className='hover:text-gray-500 duration-300 transition-colors'>
@@ -200,7 +202,7 @@ const Connect = () => {
                         <RiYoutubeFill />
                     </a>
                 </span>
-            </div>
+            </div> */}
 
         </div>
     )

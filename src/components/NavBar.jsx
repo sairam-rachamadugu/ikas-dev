@@ -14,7 +14,7 @@ import { FaAngleRight, FaArrowRight } from 'react-icons/fa'
 
 //images
 import brandicon from '../assets/brandedlogo.png'
-import brandiconmd from '../assets/brandedlogomd.png'
+import brandiconmd from '../assets/brandedlogo.png'
 
 const programs = [
     { name: 'AMC MCQ', description: 'AMC MCQ Exam Preparation', href: 'https://www.ug.IKASAcademy.co.in/', icon: AcademicCapIcon },
@@ -67,9 +67,9 @@ const NavBar = () => {
       }, []);
     
     return (
-        <div className='bg-white'>
-            <header className= {`${scrolled ? 'fixed border-b border-gray-100 backdrop-blur-sm bg-white/90' : 'absolute' } inset-x-0 top-0 z-50`}>
-                <nav className="flex items-center justify-between p-6 lg:px-8"  aria-label="Global">
+        <div className='bg-peacockBlue'>
+            <header className= {`${scrolled ? 'fixed border-b border-gray-100 backdrop-blur-sm bg-peacockBlue/90' : 'absolute' } inset-x-0 top-0 z-50 bg-peacockBlue`}>
+                <nav className="flex items-center justify-between p-4 lg:px-8"  aria-label="Global">
                     <div className="flex lg:flex-1">
                         <Link to="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">IKASAcademy</span>
@@ -80,7 +80,7 @@ const NavBar = () => {
                     <div className="flex lg:hidden">
                         <button
                             type="button"
-                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-moonlight"
                             onClick={() => setMobileMenuOpen(true)}
                         >
                             <span className="sr-only">Open main menu</span>
@@ -88,11 +88,11 @@ const NavBar = () => {
                         </button>
                     </div>
                     <Popover.Group className="hidden lg:flex lg:gap-x-12 ml-auto">
-                        <Link to="/" className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-500 duration-300 transition-colors">
+                        <Link to="/" className="text-sm font-semibold leading-6 text-moonlight hover:text-primary duration-300 transition-colors">
                             Home
                         </Link>
                         <Popover className="relative">
-                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-700  hover:text-gray-500 duration-300 transition-colors" onClick={handlePopoverOpen}>
+                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-moonlight hover:text-primary duration-300 transition-colors" onClick={handlePopoverOpen}>
                                 
                                 Courses Offered
                             </Popover.Button>
@@ -135,7 +135,7 @@ const NavBar = () => {
                                                     className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
                                                     onClick={handlePopoverClose}
                                                 >
-                                                    <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                                                    <item.icon className="h-5 w-5 flex-none text-moonlight" aria-hidden="true" />
                                                     {item.name}
                                                     {item.direct}
                                                 </Link>
@@ -146,7 +146,7 @@ const NavBar = () => {
                             )}
                         </Popover>
                         <Popover className="relative">
-                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-700  hover:text-gray-500 duration-300 transition-colors" onClick={handlePopoverOpen}>
+                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-moonlight hover:text-primary duration-300 transition-colors" onClick={handlePopoverOpen}>
                                 
                                 About IKAS
                             </Popover.Button>
@@ -189,7 +189,7 @@ const NavBar = () => {
                                                     className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
                                                     onClick={handlePopoverClose}
                                                 >
-                                                    <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                                                    <item.icon className="h-5 w-5 flex-none text-moonlight" aria-hidden="true" />
                                                     {item.name}
                                                     {item.direct}
                                                 </Link>
@@ -199,7 +199,7 @@ const NavBar = () => {
                                 </Transition>
                             )}
                         </Popover>
-                        <Link to="/connect" className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-500 duration-300 transition-colors">
+                        <Link to="/connect" className="text-sm font-semibold leading-6 text-moonlight hover:text-primary duration-300 transition-colors">
                             Contact Us
                         </Link>
                     </Popover.Group>
@@ -218,7 +218,7 @@ const NavBar = () => {
 
                 <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                     <div className="fixed inset-0 z-10" />
-                    <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                    <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-peacockBlue px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                         <div className="flex items-center justify-between">
                             <Link to="/" className="-m-1.5 p-1.5">
                                 <span className="sr-only">IKASAcademy</span>
@@ -240,14 +240,14 @@ const NavBar = () => {
                                 <div className="space-y-2 py-6">
                                     <Link
                                         to="/"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50" onClick={() => setMobileMenuOpen(false)}
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-moonlight hover:text-primary" onClick={() => setMobileMenuOpen(false)}
                                     >
                                         Home
                                     </Link>
                                     <Disclosure as="div" className="-mx-3">
                                         {({ open }) => (
                                             <>
-                                                <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50">
+                                                <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-moonlight hover:text-primary">
                                                 Courses Offered
                                                     <ChevronDownIcon
                                                         className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
@@ -259,7 +259,7 @@ const NavBar = () => {
                                                         <Link
                                                             key={item.name}
                                                             to={item.href}
-                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-700 hover:bg-gray-50"
+                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-moonlight hover:text-primary"
                                                             onClick={() => setMobileMenuOpen(false)}
                                                         >
                                                             {item.name}
@@ -273,7 +273,7 @@ const NavBar = () => {
                                     <Disclosure as="div" className="-mx-3">
                                         {({ open }) => (
                                             <>
-                                                <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50">
+                                                <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-moonlight hover:text-primary">
                                                 About IKAS
                                                     <ChevronDownIcon
                                                         className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
@@ -285,7 +285,7 @@ const NavBar = () => {
                                                         <Link
                                                             key={item.name}
                                                             to={item.href}
-                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-700 hover:bg-gray-50"
+                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-moonlight hover:text-primary"
                                                             onClick={() => setMobileMenuOpen(false)}
                                                         >
                                                             {item.name}
@@ -298,13 +298,13 @@ const NavBar = () => {
                                     </Disclosure>                                    
                                     <Link
                                         to="/blogs"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50" onClick={() => setMobileMenuOpen(false)}
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-moonlight hover:text-primary" onClick={() => setMobileMenuOpen(false)}
                                     >
                                         Blogs
                                     </Link>
                                     <Link
                                         to="/connect"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50" onClick={() => setMobileMenuOpen(false)}
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-moonlight hover:text-primary" onClick={() => setMobileMenuOpen(false)}
                                     >
                                         Contact Us
                                     </Link>

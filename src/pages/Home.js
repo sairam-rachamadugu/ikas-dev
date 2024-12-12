@@ -7,15 +7,17 @@ import Features from '../components/Features';
 import WhyUs from '../components/WhyUs';
 import Banner from '../components/Banner';
 import Testimonial from '../components/Testimonial';
+import Connect from './Connect';
 const Home = () => {
   return (
     <div className='mt-24 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl space-y-40'>
       <Header />
       <Stats />
-      <Features />
-      <WhyUs />
-      <Banner />
-      <Testimonial />
+      {/* <Features /> */}
+      {/* <WhyUs /> */}
+      {/* <Banner /> */}
+      <Connect/>
+      {/* <Testimonial /> */}
     </div>
   )
 }
