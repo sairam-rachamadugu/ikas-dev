@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/IKASAcademy/static/css/main.e4f99fb9.css",
-    "main.js": "/IKASAcademy/static/js/main.3f915fed.js",
+    "main.css": "/IKASAcademy/static/css/main.259eeab3.css",
+    "main.js": "/IKASAcademy/static/js/main.389ef1eb.js",
     "static/media/hero.jpg": "/IKASAcademy/static/media/hero.84d70a494764d115c673.jpg",
     "static/media/grppic.png": "/IKASAcademy/static/media/grppic.eeb6fc08c4659049e2df.png",
     "static/media/brandedlogo.png": "/IKASAcademy/static/media/brandedlogo.84d7e26d0e02f014e42b.png",
@@ -11,11 +11,11 @@
     "static/media/bhaskar.jpg": "/IKASAcademy/static/media/bhaskar.f0f72c3c7e0cffdc22d1.jpg",
     "static/media/j2.jpg": "/IKASAcademy/static/media/j2.f0f72c3c7e0cffdc22d1.jpg",
     "index.html": "/IKASAcademy/index.html",
-    "main.e4f99fb9.css.map": "/IKASAcademy/static/css/main.e4f99fb9.css.map",
-    "main.3f915fed.js.map": "/IKASAcademy/static/js/main.3f915fed.js.map"
+    "main.259eeab3.css.map": "/IKASAcademy/static/css/main.259eeab3.css.map",
+    "main.389ef1eb.js.map": "/IKASAcademy/static/js/main.389ef1eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4f99fb9.css",
-    "static/js/main.3f915fed.js"
+    "static/css/main.259eeab3.css",
+    "static/js/main.389ef1eb.js"
   ]
 }
